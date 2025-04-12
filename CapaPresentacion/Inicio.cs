@@ -1,5 +1,6 @@
 using CapaEntidad;
 using FontAwesome.Sharp;
+using CapaNegocio;
 
 namespace CapaPresentacion
 {
@@ -83,6 +84,20 @@ namespace CapaPresentacion
 
         private void Inicio_Load(object sender, EventArgs e)
         {
+            List<Permiso> ListaPermisos = new CN_Permiso().Listar(usuarioActual.idUsuario);
+
+            foreach (ToolStripMenuItem item in menuStrip1.Items)
+            {
+                if (item is IconMenuItem iconMenu)
+                {
+                    bool encontrado = ListaPermisos.Any(p => p.Menu == iconMenu.Name);
+                    if (!encontrado)
+                    {
+                        iconMenu.Visible = false;
+                    }
+                }
+            }
+
             lblUsuario.Text = usuarioActual.NombreCompleto;
         }
 
@@ -108,7 +123,6 @@ namespace CapaPresentacion
             AbrirFormulario(MenuVentas, new frmVentas());
 
         }
-
         private void SubMenuDetalleVenta_Click(object sender, EventArgs e)
         {
             AbrirFormulario(MenuVentas, new frmDetalleVenta());
@@ -135,6 +149,11 @@ namespace CapaPresentacion
         }
 
         private void MenuMantenimiento_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MenuVentas_Click(object sender, EventArgs e)
         {
 
         }

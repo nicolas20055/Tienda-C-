@@ -48,6 +48,7 @@
             Controls.Add(label1);
             Name = "frmVentas";
             Text = "frmVentas";
+            Load += frmVentas_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -95,7 +95,7 @@
             SubMenuCategoria.IconColor = Color.Black;
             SubMenuCategoria.IconFont = FontAwesome.Sharp.IconFont.Auto;
             SubMenuCategoria.Name = "SubMenuCategoria";
-            SubMenuCategoria.Size = new Size(180, 22);
+            SubMenuCategoria.Size = new Size(125, 22);
             SubMenuCategoria.Text = "Categoria";
             SubMenuCategoria.Click += SubMenuCategoria_Click;
             // 
@@ -105,7 +105,7 @@
             SubMenuProducto.IconColor = Color.Black;
             SubMenuProducto.IconFont = FontAwesome.Sharp.IconFont.Auto;
             SubMenuProducto.Name = "SubMenuProducto";
-            SubMenuProducto.Size = new Size(180, 22);
+            SubMenuProducto.Size = new Size(125, 22);
             SubMenuProducto.Text = "Producto";
             SubMenuProducto.Click += SubMenuProducto_Click;
             // 
@@ -121,6 +121,7 @@
             MenuVentas.Size = new Size(122, 67);
             MenuVentas.Text = "Ventas";
             MenuVentas.TextImageRelation = TextImageRelation.ImageAboveText;
+            MenuVentas.Click += MenuVentas_Click;
             // 
             // SubMenuRegistrarVenta
             // 
@@ -128,7 +129,7 @@
             SubMenuRegistrarVenta.IconColor = Color.Black;
             SubMenuRegistrarVenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
             SubMenuRegistrarVenta.Name = "SubMenuRegistrarVenta";
-            SubMenuRegistrarVenta.Size = new Size(142, 22);
+            SubMenuRegistrarVenta.Size = new Size(180, 22);
             SubMenuRegistrarVenta.Text = "Registrar";
             SubMenuRegistrarVenta.Click += SubMenuRegistrarVenta_Click;
             // 
@@ -138,7 +139,7 @@
             SubMenuDetalleVenta.IconColor = Color.Black;
             SubMenuDetalleVenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
             SubMenuDetalleVenta.Name = "SubMenuDetalleVenta";
-            SubMenuDetalleVenta.Size = new Size(142, 22);
+            SubMenuDetalleVenta.Size = new Size(180, 22);
             SubMenuDetalleVenta.Text = "Detalle Venta";
             SubMenuDetalleVenta.Click += SubMenuDetalleVenta_Click;
             // 
