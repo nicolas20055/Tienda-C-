@@ -19,7 +19,6 @@ namespace CapaPresentacion
             else
             
                 usuarioActual = objusuario;
-            
 
             InitializeComponent();
         }
@@ -34,13 +33,10 @@ namespace CapaPresentacion
 
         }
 
-
-
         private void iconMenuItem7_Click(object sender, EventArgs e)
         {
             AbrirFormulario(MenuMantenimiento, new frmClientes());
         }
-
 
         private void AbrirFormulario(IconMenuItem menu, Form formulario)
         {
@@ -62,7 +58,6 @@ namespace CapaPresentacion
 
             Contenedor.Controls.Add(formulario);
             formulario.Show();
-
 
         }
         private void iconMenuItem5_Click(object sender, EventArgs e)
@@ -101,7 +96,7 @@ namespace CapaPresentacion
                     bool encontrado = ListaPermisos.Any(p => p.Menu == iconMenu.Name);
                     if (!encontrado)
                     {
-                        iconMenu.Visible = false;
+                        iconMenu.Visible = true;
                     }
                 }
             }
