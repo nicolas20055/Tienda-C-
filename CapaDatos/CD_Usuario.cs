@@ -19,7 +19,7 @@ namespace CapaDatos
                     StringBuilder query = new StringBuilder();
                     query.AppendLine("SELECT\r\n    u.idUsuario,\r\n    u.Documento,\r\n    u.NombreCompleto,\r\n    u.Correo,\r\n    u.Clave,\r\n    u.Estado,\r\n    r.idRol,\r\n    r.Descripcion\r\nFROM Usuario u");
                     query.AppendLine("INNER JOIN Rol r ON r.idRol = u.idRol");
-   
+
 
                     MySqlCommand cmd = new MySqlCommand(query.ToString(), oconexion);
                     cmd.CommandType = CommandType.Text;
@@ -164,6 +164,6 @@ namespace CapaDatos
 
 
 
+        }
     }
-}
 

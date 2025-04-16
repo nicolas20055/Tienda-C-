@@ -163,7 +163,7 @@ namespace CapaPresentacion
                 int indice = e.RowIndex;
                 if (indice >= 0)
                 {
-                    indiceFilaSeleccionada = indice;
+                    indiceFilaSeleccionada = indice; 
 
                     txtid.Text = dgvData.Rows[indice].Cells["id"].Value.ToString();
                     txtdocumento.Text = dgvData.Rows[indice].Cells["Documento"].Value.ToString();
@@ -228,8 +228,8 @@ namespace CapaPresentacion
                     {
                         MessageBox.Show($"No se pudo eliminar el registro: {mensaje}", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
-                }
-            }
+    }
+}
             else
             {
                 MessageBox.Show("Debe seleccionar un usuario válido para eliminar.", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Warning);
