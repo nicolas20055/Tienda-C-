@@ -8,9 +8,9 @@ namespace CapaEntidad
 {
     public class Producto
     {
-        public int IDProducto { get; set; }
-        public String codigo { get; set; }
-        public String nombre { get; set; }
+        public int idProducto { get; set; }
+        public String Codigo { get; set; }
+        public String Nombre { get; set; }
         public String Descripcion { get; set; }
         public Categoria oCategoria{ get; set; }
 
@@ -18,7 +18,7 @@ namespace CapaEntidad
         public decimal PrecioCompra { get; set; }
 
         public decimal PrecioVenta { get; set; }
-        public bool estado { get; set; }
+        public bool Estado { get; set; }
         public string FechaRegistro { get; set; }
     }
 

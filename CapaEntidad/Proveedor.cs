@@ -8,7 +8,7 @@ namespace CapaEntidad
 {
     public class Proveedor
     {
-        public int IDProveedor {  get; set; }
+        public int idProveedor {  get; set; }
 
         public String Documento { get; set; }
 
@@ -16,7 +16,7 @@ namespace CapaEntidad
         public String Correo { get; set; }
 
         public String Telefono { get; set; }
-        public bool estado { get; set; }
+        public bool Estado { get; set; }
         public string FechaRegistro { get; set; }
     }
 }
