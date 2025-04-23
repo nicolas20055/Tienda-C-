@@ -58,7 +58,7 @@ namespace CapaPresentacion
         }
 
 
-     
+
 
         private void dgvData_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
         {
@@ -218,6 +218,11 @@ namespace CapaPresentacion
             {
                 row.Visible = true;
             }
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            Limpiar();
         }
     }
 }

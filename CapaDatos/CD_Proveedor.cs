@@ -28,6 +28,7 @@ namespace CapaDatos
                     oconexion.Open();
                     using (MySqlDataReader dr = cmd.ExecuteReader())
                     {
+
                         while (dr.Read())
                         {
                             Lista.Add(new Proveedor()
@@ -48,7 +49,9 @@ namespace CapaDatos
                 catch (Exception ex)
                 {
                     Lista = new List<Proveedor>();
+                    Console.WriteLine("Error al listar proveedores: " + ex.Message);
                 }
+
 
             }
             return Lista;
@@ -71,9 +74,11 @@ namespace CapaDatos
                     cmd.Parameters.AddWithValue("pRazonSocial", obj.RazonSocial);
                     cmd.Parameters.AddWithValue("pCorreo", obj.Correo);
                     cmd.Parameters.AddWithValue("pTelefono", obj.Telefono);
-                    cmd.Parameters.AddWithValue("pEstado", obj.Estado);
+                    cmd.Parameters.AddWithValue("Estado", obj.Estado);
                     cmd.Parameters.Add("pResultado", MySqlDbType.Int32).Direction = ParameterDirection.Output;
                     cmd.Parameters.Add("pMensaje", MySqlDbType.VarChar, 500).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("pRespuesta", MySqlDbType.Int32).Direction = ParameterDirection.Output;
+
 
                     oconexion.Open();
                     cmd.ExecuteNonQuery();
@@ -109,7 +114,8 @@ namespace CapaDatos
                     cmd.Parameters.AddWithValue("pRazonSocial", obj.RazonSocial);
                     cmd.Parameters.AddWithValue("pCorreo", obj.Correo);
                     cmd.Parameters.AddWithValue("pTelefono", obj.Telefono);
-                    cmd.Parameters.AddWithValue("pEstado", obj.Estado);
+                    cmd.Parameters.AddWithValue("Estado", obj.Estado);
+                    cmd.Parameters.Add("pRespuesta", MySqlDbType.Int32).Direction = ParameterDirection.Output;
                     cmd.Parameters.Add("pResultado", MySqlDbType.Bit).Direction = ParameterDirection.Output;
                     cmd.Parameters.Add("pMensaje", MySqlDbType.VarChar, 500).Direction = ParameterDirection.Output;
 
@@ -142,6 +148,7 @@ namespace CapaDatos
                     cmd.CommandType = CommandType.StoredProcedure;
 
                     cmd.Parameters.AddWithValue("pIdProveedor", obj.idProveedor);
+                    cmd.Parameters.Add("pRespuesta", MySqlDbType.Int32).Direction = ParameterDirection.Output;
                     cmd.Parameters.Add("pResultado", MySqlDbType.Bit).Direction = ParameterDirection.Output;
                     cmd.Parameters.Add("pMensaje", MySqlDbType.VarChar, 500).Direction = ParameterDirection.Output;
 

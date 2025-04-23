@@ -13,11 +13,11 @@ namespace CapaPresentacion
         public Inicio(Usuario objusuario = null)
         {
             if (objusuario == null)
-            
+
                 usuarioActual = new Usuario() { NombreCompleto = "Admin predefinido", idUsuario = 1 };
-            
+
             else
-            
+
                 usuarioActual = objusuario;
 
             InitializeComponent();
@@ -159,6 +159,11 @@ namespace CapaPresentacion
         private void MenuVentas_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void SubmenuNegocio_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(MenuMantenimiento, new frmNegocio());
         }
     }
 }

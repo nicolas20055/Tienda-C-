@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NICOLAS ORTIZ\\Documents\\Tienda\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8B9A128-C6D4-7EDB-0926-037437F92FB5}|..\\TiendaN\\CapaDatos\\CapaDatos.csproj|c:\\users\\nicolas ortiz\\documents\\tiendan\\capadatos\\cd_negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63C7A3-87FE-4E68-B209-2D7678430D59}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\nicolas ortiz\\documents\\tienda\\capapresentacion\\frmnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE63C7A3-87FE-4E68-B209-2D7678430D59}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE63C7A3-87FE-4E68-B209-2D7678430D59}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\nicolas ortiz\\documents\\tienda\\capapresentacion\\frmnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE63C7A3-87FE-4E68-B209-2D7678430D59}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66B95D89-DFB0-A63B-1A88-1E0360F3BBD9}|..\\TiendaN\\CapaNegocio\\CapaNegocio.csproj|c:\\users\\nicolas ortiz\\documents\\tiendan\\capanegocio\\cn_negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C34AF-BF9F-094F-FFF4-50209320949F}|..\\TiendaN\\CapaEntidad\\CapaEntidad.csproj|c:\\users\\nicolas ortiz\\documents\\tiendan\\capaentidad\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\NICOLAS ORTIZ\\Documents\\Tienda\\CapaPresentacion\\frmNegocio.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmNegocio.cs",
+              "ToolTip": "C:\\Users\\NICOLAS ORTIZ\\Documents\\Tienda\\CapaPresentacion\\frmNegocio.cs",
+              "RelativeToolTip": "CapaPresentacion\\frmNegocio.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwFoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T05:26:27.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmNegocio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\NICOLAS ORTIZ\\Documents\\Tienda\\CapaPresentacion\\frmNegocio.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmNegocio.cs",
+              "ToolTip": "C:\\Users\\NICOLAS ORTIZ\\Documents\\Tienda\\CapaPresentacion\\frmNegocio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\frmNegocio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T03:20:08.975Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CN_Negocio.cs",
+              "DocumentMoniker": "C:\\Users\\NICOLAS ORTIZ\\Documents\\TiendaN\\CapaNegocio\\CN_Negocio.cs",
+              "RelativeDocumentMoniker": "..\\TiendaN\\CapaNegocio\\CN_Negocio.cs",
+              "ToolTip": "C:\\Users\\NICOLAS ORTIZ\\Documents\\TiendaN\\CapaNegocio\\CN_Negocio.cs",
+              "RelativeToolTip": "..\\TiendaN\\CapaNegocio\\CN_Negocio.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAqwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T03:13:03.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Negocio.cs",
+              "DocumentMoniker": "C:\\Users\\NICOLAS ORTIZ\\Documents\\TiendaN\\CapaEntidad\\Negocio.cs",
+              "RelativeDocumentMoniker": "..\\TiendaN\\CapaEntidad\\Negocio.cs",
+              "ToolTip": "C:\\Users\\NICOLAS ORTIZ\\Documents\\TiendaN\\CapaEntidad\\Negocio.cs",
+              "RelativeToolTip": "..\\TiendaN\\CapaEntidad\\Negocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T03:12:18.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CD_Negocio.cs",
+              "DocumentMoniker": "C:\\Users\\NICOLAS ORTIZ\\Documents\\TiendaN\\CapaDatos\\CD_Negocio.cs",
+              "RelativeDocumentMoniker": "..\\TiendaN\\CapaDatos\\CD_Negocio.cs",
+              "ToolTip": "C:\\Users\\NICOLAS ORTIZ\\Documents\\TiendaN\\CapaDatos\\CD_Negocio.cs",
+              "RelativeToolTip": "..\\TiendaN\\CapaDatos\\CD_Negocio.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAkwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T03:11:29.355Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

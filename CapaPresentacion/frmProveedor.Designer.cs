@@ -85,6 +85,7 @@
             iconButton1.TextAlign = ContentAlignment.MiddleRight;
             iconButton1.TextImageRelation = TextImageRelation.ImageBeforeText;
             iconButton1.UseVisualStyleBackColor = false;
+            iconButton1.Click += iconButton1_Click;
             // 
             // txtTelefono
             // 
@@ -133,6 +134,7 @@
             btnelimiar.TextAlign = ContentAlignment.MiddleRight;
             btnelimiar.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnelimiar.UseVisualStyleBackColor = false;
+            btnelimiar.Click += btnelimiar_Click;
             // 
             // btnguardar
             // 
@@ -153,6 +155,7 @@
             btnguardar.TextAlign = ContentAlignment.MiddleRight;
             btnguardar.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnguardar.UseVisualStyleBackColor = false;
+            btnguardar.Click += btnguardar_Click;
             // 
             // label7
             // 
@@ -251,6 +254,7 @@
             btnbuscar.TextAlign = ContentAlignment.MiddleRight;
             btnbuscar.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnbuscar.UseVisualStyleBackColor = false;
+            btnbuscar.Click += btnbuscar_Click;
             // 
             // txtbusqueda
             // 
@@ -304,6 +308,7 @@
             btnlimpiarbuscador.TextAlign = ContentAlignment.MiddleRight;
             btnlimpiarbuscador.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnlimpiarbuscador.UseVisualStyleBackColor = false;
+            btnlimpiarbuscador.Click += btnlimpiarbuscador_Click;
             // 
             // label9
             // 
@@ -366,6 +371,8 @@
             dgvData.RowTemplate.Height = 28;
             dgvData.Size = new Size(782, 285);
             dgvData.TabIndex = 95;
+            dgvData.CellContentClick += dgvData_CellContentClick;
+            dgvData.CellPainting += dgvData_CellPainting;
             // 
             // btnseleccionar
             // 
